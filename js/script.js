@@ -29,7 +29,7 @@ for (var i = 1; i < negozioBici.length; i ++) {
     }
 }
 
-document.getElementById("es_1").innerHTML = "la bici con il minor peso è: " + minPeso;
+document.getElementById("es_1").innerHTML = "la bici con il minor peso è: " + minPeso.nome;
 
 
 //! es_2
@@ -69,13 +69,11 @@ var bancarella = [
 
 for (var i = 0; i < bancarella.length; i++){
     
-    console.log(bancarella[i]);
-    
     pesoTot += bancarella[i].peso;
 }
 
 document.getElementById("es_2").innerHTML= "il totale del peso di tutte le zucchine è pari a " + pesoTot;
 
 
-
+//! es_3
 // 3. Crea un array di 10 oggetti che rappresentano una zucchina. Dividi in due array separati le zucchine che misurano meno o più di 15cm. Infine stampa separatamente quanto pesano i due gruppi di zucchine
